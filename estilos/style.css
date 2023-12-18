@@ -65,22 +65,27 @@ div#formulario > p{
     font-size: 0.8em;
 }
 
-#ilogin{
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 7px;
-}
-
-#isenha{
-    border-radius: 7px;
-    border: 1px solid black;
-}
-
 div.campo > label{
     display: none;
 }
 
 span{
+    padding: 2px;
     color: var(--cor3);
+}
+
+#ilogin{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    width: 200px;
+    height: 23px;
+}
+
+#isenha{
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 200px;
+    height: 23px;
 }
 
 form > input[type=submit]{
