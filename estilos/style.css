@@ -66,9 +66,55 @@ div#formulario > p{
 }
 
 #ilogin{
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 7px;
 }
 
 #isenha{
     border-radius: 7px;
+    border: 1px solid black;
+}
+
+div.campo > label{
+    display: none;
+}
+
+span{
+    color: var(--cor3);
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor5);
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: var(--cor4);
+    color: white;
+}
+
+form > a.botao{
+    display: block;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color:var(--cor1);
+}
+
+form > a.botao:hover{
+    color: black;
+}
+
+form > a.botao > i{
+    font-size: 1.1em;
 }
