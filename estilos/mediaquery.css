@@ -29,6 +29,11 @@
         width: 60%;
     }
 
+    div#formulario > p{
+        font-size: 1.2em;
+        font-weight: 100;
+    }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -60,5 +65,10 @@
     section#login > div#formulario{
         float: left;
         width: 50%;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
+        font-weight: 100;
     }
 }
